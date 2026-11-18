@@ -1,0 +1,14 @@
+# Secret scan config (quality:scan-secrets and CI). Real secrets live only in gitignored env files.
+# Scans run over git history, so anything ignored is never scanned — and a committed .env IS flagged.
+# Do not allowlist env-file paths here: that would hide exactly the leak this scan exists to catch.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "generated demo snapshot (embedding vectors trip entropy rules)"
+paths = [
+  '''(^|/)api/demo/snapshot\.json$''',
+]
+
+# Empty template assignments: with CRLF files the "secret" captured is the next line's bare `KEY=`.
+regexes = ['''^[A-Z0-9_]+=$''']

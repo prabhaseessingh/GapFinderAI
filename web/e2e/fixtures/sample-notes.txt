@@ -1,0 +1,24 @@
+# Unit 1 Light and Optics (sample study notes written for GapFinder tests)
+Light travels in straight lines. When light falls on a polished surface it is reflected.
+The laws of reflection state that the angle of incidence is equal to the angle of reflection, and that the incident ray, the reflected ray and the normal all lie in the same plane.
+A concave mirror converges parallel rays to a point called the principal focus, while a convex mirror makes them diverge.
+Refraction is the bending of light when it passes from one transparent medium into another because its speed changes.
+Snell's law states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant for a given pair of media. This constant is called the refractive index of the second medium with respect to the first.
+A convex lens converges light, and the lens formula 1/v - 1/u = 1/f relates the image distance v, the object distance u and the focal length f.
+Magnification produced by a lens is the ratio of the height of the image to the height of the object.
+
+# Unit 2 Electricity
+Electric current is the rate of flow of electric charge, measured in amperes.
+Potential difference between two points is the work done to move a unit charge from one point to the other, measured in volts.
+Ohm's law states that the current through a conductor is directly proportional to the potential difference across it, provided the temperature remains constant. So V = IR, where R is the resistance.
+The resistance of a conductor increases with its length and decreases with its area of cross-section.
+For resistors in series the equivalent resistance is the sum of the individual resistances. For resistors in parallel the reciprocal of the equivalent resistance is the sum of the reciprocals of the individual resistances.
+When current flows through a resistor, electrical energy is converted into heat. This heating effect is used in electric heaters and fuses.
+Electric power is the rate at which electrical energy is consumed, P = VI, and its unit is the watt.
+
+# Unit 3 Life Processes
+Photosynthesis is the process by which green plants make food. Its raw materials are carbon dioxide and water, and it needs sunlight and chlorophyll. Oxygen is released as a by-product.
+Aerobic respiration uses oxygen and breaks glucose down completely into carbon dioxide and water, releasing a large amount of energy.
+Anaerobic respiration happens without oxygen; in yeast it produces ethanol and carbon dioxide, and in human muscles it produces lactic acid and releases less energy.
+The human heart has four chambers. Arteries carry blood away from the heart and veins carry blood towards the heart.
+Blood contains plasma, red blood cells that carry oxygen using haemoglobin, white blood cells that fight infection, and platelets that help clotting.

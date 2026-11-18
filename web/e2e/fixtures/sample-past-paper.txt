@@ -1,0 +1,6 @@
+Sample Science Board Examination 2024 (written for GapFinder tests)
+Answer all questions.
+Q1. State Snell's law of refraction and define refractive index. (3 marks)
+Q2. Two resistors of 4 ohm and 6 ohm are connected in parallel. Find the equivalent resistance. (4 marks)
+Q3. Explain the process of photosynthesis and name its raw materials. (5 marks)
+Q4. Distinguish between aerobic and anaerobic respiration. (3 marks)

@@ -1,0 +1,16 @@
+{
+  "name": "gapfinder-ai",
+  "private": true,
+  "packageManager": "pnpm@11.18.0",
+  "scripts": {
+    "web:lint": "pnpm --dir web lint",
+    "web:typecheck": "pnpm --dir web typecheck",
+    "web:unit-test": "pnpm --dir web unit-test",
+    "web:build": "pnpm --dir web build",
+    "web:e2e-test": "pnpm --dir web e2e-test",
+    "web:a11y-test": "pnpm --dir web a11y-test",
+    "web:visual-test": "pnpm --dir web visual-test",
+    "quality:scan-secrets": "gitleaks git . --config .gitleaks.toml --redact",
+    "infra:image-worker-test": "node --test \"infra/cloudflare-image-worker/test/*.test.js\""
+  }
+}

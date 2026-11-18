@@ -1,0 +1,32 @@
+GAPFINDER DEMO SYLLABUS - CLASS 10 SCIENCE
+This syllabus was written for the GapFinder demo workspace. It is a sample, not an official board syllabus.
+
+# Unit 1: Life Processes
+## Photosynthesis
+Raw materials of photosynthesis, the role of chlorophyll and sunlight, and its products.
+## Stomata and gas exchange
+Gas exchange through stomata and the opening and closing of guard cells.
+## Respiration
+Aerobic and anaerobic respiration and the energy each releases.
+## Transportation in humans
+The four-chambered heart, arteries, veins and capillaries, and the components of blood.
+
+# Unit 2: Electricity
+## Current and potential difference
+Electric current, electric charge and potential difference, with their SI units.
+## Ohm's law and resistance
+Ohm's law and its graph; resistance and the factors it depends on, including resistivity.
+## Resistors in series and parallel
+Combinations of resistors in series and in parallel.
+## Heating effect and electric power
+Heating effect of electric current, electric power and commercial energy units.
+
+# Unit 3: Light - Reflection and Refraction
+## Reflection and mirrors
+Laws of reflection; image formation by plane, concave and convex mirrors.
+## Refraction and refractive index
+Refraction of light, refractive index and Snell's law.
+## Lenses
+Image formation by convex and concave lenses; the lens formula, magnification and power of a lens.
+
+Assessment: one practice paper and two term examinations.

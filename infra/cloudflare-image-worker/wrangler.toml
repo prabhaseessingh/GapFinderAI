@@ -1,0 +1,15 @@
+# GapFinder image Worker — see the setup guide (Cloudflare section).
+name = "gapfinder-image-worker"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+# Replay protection. Run `npx wrangler kv namespace create NONCES` and paste the id below.
+[[kv_namespaces]]
+binding = "NONCES"
+id = "43f548459cf449ac832c100742ae5f1a"
+
+# SHARED_SECRET is set with `npx wrangler secret put SHARED_SECRET` (never in this file).

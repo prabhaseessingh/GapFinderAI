@@ -1,0 +1,62 @@
+GAPFINDER DEMO NOTES - CLASS 10 SCIENCE
+These study notes were written for the GapFinder demo workspace. They are original sample notes, not taken from any textbook.
+
+# Unit 1: Life Processes
+
+## Photosynthesis
+Photosynthesis is the process by which green plants make their own food. The raw materials are carbon dioxide, which enters through the leaves, and water, which is absorbed by the roots. Sunlight provides the energy, and chlorophyll, the green pigment found in chloroplasts, absorbs this light energy.
+During photosynthesis, light energy is converted into chemical energy. Water molecules are split into hydrogen and oxygen, and carbon dioxide is reduced to carbohydrates such as glucose. Oxygen is released into the air as a by-product.
+The overall change can be written as: carbon dioxide + water, in the presence of sunlight and chlorophyll, gives glucose + oxygen.
+Plants store extra glucose as starch. A simple test for starch is that iodine solution turns blue-black when it touches a leaf that has been photosynthesising.
+
+## Stomata and gas exchange
+Stomata are tiny pores, mostly on the lower surface of leaves. Each stoma is surrounded by two guard cells.
+When guard cells take in water they swell and the pore opens. When they lose water they shrink and the pore closes.
+Open stomata allow carbon dioxide to enter for photosynthesis and allow oxygen and water vapour to leave. Plants close their stomata when they need to reduce water loss, for example on very hot days.
+
+## Respiration
+Respiration releases energy from food. In aerobic respiration, glucose is broken down completely using oxygen, producing carbon dioxide, water and a large amount of energy. This happens in the mitochondria.
+In anaerobic respiration, glucose is broken down without oxygen and much less energy is released. In yeast, anaerobic respiration produces ethanol and carbon dioxide; this is called fermentation. In human muscle cells during hard exercise, a shortage of oxygen leads to lactic acid, which causes muscle cramps.
+
+## Transportation in humans
+The human heart has four chambers: two atria above and two ventricles below. The right side of the heart receives deoxygenated blood from the body and pumps it to the lungs. The left side receives oxygenated blood from the lungs and pumps it to the rest of the body.
+Arteries carry blood away from the heart and have thick, elastic walls because the blood is under high pressure. Veins carry blood towards the heart and have valves that stop blood flowing backwards. Capillaries are very thin vessels where materials are exchanged between the blood and the cells.
+Blood contains plasma, red blood cells, white blood cells and platelets. Red blood cells carry oxygen using haemoglobin. White blood cells fight infection, and platelets help blood to clot at a wound.
+
+# Unit 2: Electricity
+
+## Electric current and potential difference
+Electric current is the rate of flow of electric charge. If a charge Q flows through a conductor in time t, the current is I = Q / t. The SI unit of current is the ampere, and current is measured with an ammeter connected in series.
+Potential difference between two points is the work done to move a unit charge from one point to the other. Its SI unit is the volt, where one volt equals one joule per coulomb. It is measured with a voltmeter connected in parallel across the component.
+
+## Ohm's law and resistance
+Ohm's law states that the current through a metallic conductor is directly proportional to the potential difference across its ends, provided its temperature stays constant. This gives V = I R, where R is the resistance of the conductor, measured in ohms.
+A graph of V against I for such a conductor is a straight line through the origin, and its slope equals the resistance.
+The resistance of a conductor is directly proportional to its length and inversely proportional to its area of cross-section. It also depends on the material, which is described by its resistivity. Metals such as copper have low resistivity, which is why connecting wires are made of copper. Alloys such as nichrome have high resistivity and are used in heating elements.
+
+## Resistors in series and in parallel
+When resistors are connected in series, the same current flows through each one and the equivalent resistance is the sum of the individual resistances: R = R1 + R2 + R3.
+When resistors are connected in parallel, the potential difference across each one is the same and the reciprocal of the equivalent resistance is the sum of the reciprocals: 1/R = 1/R1 + 1/R2 + 1/R3. The equivalent resistance of a parallel combination is always less than the smallest individual resistance.
+Household appliances are connected in parallel so that each one gets the full supply voltage and can be switched on or off independently.
+
+## Heating effect and electric power
+When current flows through a resistor, electrical energy is converted into heat. The heat produced is H = I squared R t, so it increases with the current, the resistance and the time. This heating effect is used in electric irons, heaters and the fuse.
+A fuse is a short wire with a low melting point connected in series with a circuit. If the current becomes too large, the fuse wire melts and breaks the circuit, protecting the appliances.
+Electric power is the rate at which electrical energy is used: P = V I = I squared R. Its SI unit is the watt. The commercial unit of electrical energy is the kilowatt hour, equal to 3.6 million joules.
+
+# Unit 3: Light - Reflection and Refraction
+
+## Reflection and mirrors
+The laws of reflection state that the angle of incidence is equal to the angle of reflection, and that the incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.
+A plane mirror forms a virtual, upright image of the same size as the object, as far behind the mirror as the object is in front of it.
+A concave mirror converges parallel rays of light to a point called the principal focus. It can form a real, inverted image, and is used in torches and shaving mirrors. A convex mirror diverges light and always forms a virtual, upright, smaller image, which is why it is used as a rear-view mirror in vehicles.
+
+## Refraction and refractive index
+Refraction is the change in direction of light when it passes from one transparent medium into another, because the speed of light changes.
+When light enters an optically denser medium it bends towards the normal; when it enters a rarer medium it bends away from the normal.
+Snell's law states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant for a given pair of media. This constant is the refractive index of the second medium with respect to the first. The absolute refractive index of a medium equals the speed of light in vacuum divided by the speed of light in that medium.
+
+## Lenses
+A convex lens converges light and a concave lens diverges it. The lens formula is 1/v - 1/u = 1/f, where u is the object distance, v is the image distance and f is the focal length, using the sign convention with distances measured from the optical centre.
+Magnification is the ratio of the height of the image to the height of the object, and for a lens it also equals v / u.
+The power of a lens is the reciprocal of its focal length in metres. Its unit is the dioptre. A convex lens has positive power and a concave lens has negative power.

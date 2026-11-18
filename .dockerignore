@@ -1,0 +1,17 @@
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+**/.mypy_cache
+**/*.egg-info
+.venv
+.venv-*
+node_modules
+web
+.env
+.env.*
+docs
+.dev.vars
+.dev.vars.*
+env_backup
+*.pem
+*.key

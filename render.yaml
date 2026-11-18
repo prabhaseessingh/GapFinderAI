@@ -1,0 +1,38 @@
+# Render Blueprint: API on the free web plan + free Key Value (fair-use counters only).
+# Dashboard -> New -> Blueprint -> pick this repo. Fill every `sync: false` secret when prompted.
+services:
+  - type: web
+    name: gapfinder-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./infra/deploy/render/Dockerfile
+    dockerContext: .
+    healthCheckPath: /health/live
+    autoDeploy: false
+    envVars:
+      - {key: DB_POOL_SIZE, value: "3"}
+      - {key: DB_MAX_OVERFLOW, value: "2"}
+      - {key: INLINE_WORKERS, value: "2"}
+      - key: REDIS_URL
+        fromService: {type: keyvalue, name: gapfinder-kv, property: connectionString}
+      - {key: DATABASE_URL, sync: false}
+      - {key: NEXT_PUBLIC_SUPABASE_URL, sync: false}
+      - {key: SUPABASE_SERVICE_ROLE_KEY, sync: false}
+      - {key: SUPABASE_JWT_ISSUER, sync: false}
+      - {key: SUPABASE_JWKS_URL, sync: false}
+      - {key: SUPABASE_JWT_AUDIENCE, value: authenticated}
+      - {key: APP_SIGNING_SECRET, sync: false}
+      - {key: GROQ_API_KEY, sync: false}
+      - {key: GROQ_MODEL, sync: false}
+      - {key: GROQ_MODEL_QUALITY, sync: false}
+      - {key: ELEVENLABS_API_KEY, sync: false}
+      - {key: ELEVENLABS_VOICE_ID, sync: false}
+      - {key: ELEVENLABS_MODEL_ID, sync: false}
+      - {key: ELEVENLABS_STT_MODEL_ID, sync: false}
+      - {key: CLOUDFLARE_IMAGE_WORKER_URL, sync: false}
+      - {key: CLOUDFLARE_IMAGE_WORKER_SHARED_SECRET, sync: false}
+  - type: keyvalue
+    name: gapfinder-kv
+    plan: free
+    maxmemoryPolicy: allkeys-lru
+    ipAllowList: []

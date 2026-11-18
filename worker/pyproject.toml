@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gapfinder-worker"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["celery[redis]>=5.5", "pydantic-settings>=2.10", "pymupdf>=1.26", "python-docx>=1.2","sqlalchemy>=2.0", "psycopg[binary]>=3.2", "httpx>=0.28"]
+
+[tool.setuptools.packages.find]
+include = ["worker*", "tasks*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["../api", ".", ".."]
+

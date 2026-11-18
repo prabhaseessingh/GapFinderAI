@@ -1,0 +1,95 @@
+@import 'tailwindcss';
+
+/*
+ * GapFinder design tokens — visual identity measured from igebra.ai:
+ * Poppins, magenta→plum→amber brand gradient, navy ink + navy dark sections, soft long navy
+ * shadows, magenta glow on primary buttons, 9–24px radii, airy body line-height.
+ * Components must use these tokens, never ad-hoc colours.
+ */
+@theme {
+  --font-sans: var(--font-poppins), var(--font-gurmukhi), var(--font-telugu), ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: #ce007b; /* iGebra hover magenta: AA on white and pink tints */
+  --color-brand-vivid: #ec008c; /* iGebra primary: decoration only (4.25:1) */
+  --color-brand-hover: #b8006f;
+  --color-plum: #a54686;
+  --color-amber: #f4a623;
+  --color-cyan: #00aeef;
+  --color-ink: #202337;
+  --color-ink-2: #35416b;
+  --color-text: #424c58;
+  --color-muted: #5f6876;
+  --color-line: #e7eaf0;
+  --color-line-strong: #d3d8e2;
+  --color-surface: #ffffff;
+  --color-canvas: #fbfcff;
+  --color-soft: #edf0f4;
+  --color-pink-50: #fff5fa;
+  --color-pink-100: #fff0f8;
+  --color-cyan-50: #eaf7ff;
+  --color-success: #0f7a47; /* 4.9:1 on success-50 */
+  --color-success-50: #e9f8f0;
+  --color-warning: #a35f00;
+  --color-warning-50: #fff6e5;
+  --color-danger: #c4253a;
+  --color-danger-50: #fdecee;
+
+  --radius-sm: 9px;
+  --radius-md: 13px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+
+  --shadow-glow: 0 9px 20px rgba(236, 0, 140, 0.22);
+  --shadow-glow-sm: 0 6px 16px rgba(236, 0, 140, 0.14);
+  --shadow-card: 0 18px 42px rgba(30, 45, 70, 0.07);
+  --shadow-float: 0 20px 55px rgba(30, 45, 65, 0.14);
+  --shadow-bar: 0 -5px 21px rgba(20, 30, 60, 0.12);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-float: float 6s var(--ease-out-soft) infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+/* Filled buttons/boxes use a solid brand fill (class name kept); gradients stay on decorative bars, text and dark sections. */
+@utility bg-brand-gradient {
+  background-color: #ce007b;
+}
+/* iGebra vivid gradient for purely decorative bars, meters and arrows. */
+@utility bg-brand-gradient-vivid {
+  background-image: linear-gradient(90deg, #ec008c, #a54686, #f4a623);
+}
+@utility bg-dark-gradient {
+  background-image: linear-gradient(140deg, #202337, #35416b);
+}
+@utility text-brand-gradient {
+  color: #ce007b;
+}
+@utility tracking-display {
+  letter-spacing: -0.04em;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    @apply bg-canvas font-sans text-text antialiased;
+    line-height: 1.75;
+  }
+  h1, h2, h3, h4 { @apply text-ink tracking-display; line-height: 1.15; font-weight: 800; }
+  h3, h4 { font-weight: 700; letter-spacing: -0.02em; }
+  ::selection { background: #ffd1ea; color: #202337; }
+  :focus-visible { outline: 3px solid #ec008c; outline-offset: 2px; border-radius: 6px; }
+  [lang='hi-IN'] body, [lang='pa-IN'] body, [lang='te-IN'] body { line-height: 1.85; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

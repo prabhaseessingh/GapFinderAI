@@ -1,0 +1,18 @@
+GAPFINDER DEMO PRACTICE PAPER - CLASS 10 SCIENCE
+This practice paper was written for the GapFinder demo workspace. It is not a real board examination paper.
+
+Section A - Practice Set 2024
+Q1. State two raw materials of photosynthesis and name the gas released. (2 marks)
+Q2. Define electric current and state its SI unit. (2 marks)
+Q3. State the laws of reflection of light. (2 marks)
+Q4. Two resistors of 6 ohm and 3 ohm are connected in parallel to a 6 V battery. Find the equivalent resistance and the total current. (5 marks)
+Q5. Explain how guard cells open and close a stoma. (3 marks)
+
+Section B - Practice Set 2025
+Q6. State Ohm's law and draw the shape of the V against I graph for a metallic conductor. (3 marks)
+Q7. Distinguish between aerobic and anaerobic respiration, giving one example of each. (5 marks)
+Q8. Explain why household appliances are connected in parallel rather than in series. (3 marks)
+Q9. State Snell's law and define the refractive index of a medium. (3 marks)
+Q10. An electric heater draws 5 A from a 220 V supply. Calculate its power and the energy used in 2 hours in kilowatt hours. (5 marks)
+Q11. Describe the function of arteries, veins and capillaries. (3 marks)
+Q12. Find the power of a convex lens of focal length 25 cm. (2 marks)

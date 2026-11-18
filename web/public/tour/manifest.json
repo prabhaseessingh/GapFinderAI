@@ -1,0 +1,56 @@
+[
+  {
+    "key": "dashboard",
+    "src": "/tour/dashboard.png",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "key": "materials",
+    "src": "/tour/materials.png",
+    "width": 1100,
+    "height": 700
+  },
+  {
+    "key": "topics",
+    "src": "/tour/topics.png",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "key": "evidence",
+    "src": "/tour/evidence.png",
+    "width": 1100,
+    "height": 700
+  },
+  {
+    "key": "quiz",
+    "src": "/tour/quiz.png",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "key": "review",
+    "src": "/tour/review.png",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "key": "report",
+    "src": "/tour/report.png",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "key": "plan",
+    "src": "/tour/plan.png",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "key": "progress",
+    "src": "/tour/progress.png",
+    "width": 1280,
+    "height": 800
+  }
+]
